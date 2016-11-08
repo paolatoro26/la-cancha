@@ -1,0 +1,42 @@
+.madre{
+	display: inline-block;
+	background-color: #78B782;}
+
+.hijo{
+	height: 500px;
+	width: 800px;
+	position: relative;
+	border: 1px solid white;
+	margin: 20px;}
+
+div.uno{	
+	position: absolute;
+	height: 200px;
+	width: 120px;
+	border: 1px solid white;
+	border-left: 0;
+	top:150px;}
+
+div.dos{
+	position: absolute;
+	height: 200px;
+	width: 120px;
+	border: 1px solid white;
+	border-right: 0;
+	top:150px;
+	right: 0}
+
+div.tres{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 50%;
+	top:150px;
+	right: 300px}
+
+.bola1{position: absolute;left: 110px;top: 155px}
+.bola2{position: absolute;left: 420px;top:75px; }
+.bola3{position: absolute;right: 125px;bottom: 155px}
+
+
